@@ -1,3 +1,4 @@
+# Mean-Variance-Deviation Calculator
 import numpy as np
 
 def calculate(list):
