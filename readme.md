@@ -9,15 +9,15 @@ The input of the function should be a list containing 9 digits. The function sho
  2. Task 02.
 Analyze demographic data using Pandas. You are given a dataset of demographic data that was extracted from the 1994 Census database.
 Use Pandas to answer the following questions:
-    1. How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (race column)
-    2. What is the average age of men?
-    3. What is the percentage of people who have a Bachelor's degree?
-    4. What percentage of people with advanced education (Bachelors, Masters, or Doctorate) make more than 50K?
-    5. What percentage of people without advanced education make more than 50K?
-    6. What is the minimum number of hours a person works per week?
-    7. What percentage of the people who work the minimum number of hours per week have a salary of more than 50K?
-    8. What country has the highest percentage of people that earn >50K and what is that percentage?
-    9. Identify the most popular occupation for those who earn >50K in India.
+    - How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (race column)
+    - What is the average age of men?
+    - What is the percentage of people who have a Bachelor's degree?
+    - What percentage of people with advanced education (Bachelors, Masters, or Doctorate) make more than 50K?
+    - What percentage of people without advanced education make more than 50K?
+    - What is the minimum number of hours a person works per week?
+    - What percentage of the people who work the minimum number of hours per week have a salary of more than 50K?
+    - What country has the highest percentage of people that earn >50K and what is that percentage?
+    - Identify the most popular occupation for those who earn >50K in India.
 
   3. Task 03.
 We should visualize and make calculations from medical examination data using matplotlib, seaborn, and pandas. The dataset values were collected during medical examinations.
@@ -40,4 +40,4 @@ Create a chart similar to examples/catplot.png, where we show the counts of good
    - weight is less than the 2.5th percentile
    - weight is more than the 97.5th percentile
       
-- Create a correlation matrix using the dataset. Plot the correlation matrix using seaborn's heatmap(). Mask the upper triangle. The chart should look like examples/Figure_/2.png.
+- Create a correlation matrix using the dataset. Plot the correlation matrix using seaborn's heatmap(). Mask the upper triangle. The chart should look like examples/heatmap.png.
