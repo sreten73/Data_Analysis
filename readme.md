@@ -31,7 +31,9 @@ Create a chart similar to examples/catplot.png, where we show the counts of good
      
 - Normalize the data by making 0 always good and 1 always bad. If the value of cholesterol or gluc is 1, make the value 0. If the value is more than 1, make the value 1.
      
-- Convert the data into long format and create a chart that shows the value counts of the categorical features using seaborn's catplot(). The dataset should be split by 'Cardio' so there is one chart for each cardio value. The chart should look like examples/Figure_/1.png.
+- Convert the data into long format and create a chart that shows the value counts of the categorical features using seaborn's catplot(). The dataset should be split by 'Cardio' so there is one chart for each cardio value. The chart should look like examples/catplot.png.
+
+![Catplot Image](/catplot.png)
      
 - Clean the data. Filter out the following patient segments that represent incorrect data:
    -  diastolic pressure is higher than systolic (Keep the correct data with (df['ap_lo'] <= df['ap_hi']))
@@ -41,3 +43,5 @@ Create a chart similar to examples/catplot.png, where we show the counts of good
    - weight is more than the 97.5th percentile
       
 - Create a correlation matrix using the dataset. Plot the correlation matrix using seaborn's heatmap(). Mask the upper triangle. The chart should look like examples/heatmap.png.
+
+![Heatmap Image](/heatmap.png)
