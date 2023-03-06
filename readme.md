@@ -56,9 +56,18 @@ Use the data to complete the following tasks:
 
 - Create a draw_line_plot function that uses Matplotlib to draw a line chart.
 The title should be Daily freeCodeCamp Forum Page Views 5/2016-12/2019. The label on the x axis should be Date and the label on the y axis should be Page Views.
+It should look like this:
+
+![Draw_line_plot](/draw-line-plot.png)
 
 - Create a draw_bar_plot function that draws a bar chart.
 It should show average daily page views for each month grouped by year. The legend should show month labels and have a title of Months. On the chart, the label on the x axis should be Years and the label on the y axis should be Average Page Views.
+It should look like this:
+
+![Draw_Bar_plot](/draw-bar-plot.png)
 
 - Create a draw_box_plot function that uses Seaborn to draw two adjacent box plots.
 These box plots should show how the values are distributed within a given year or month and how it compares over time. The title of the first chart should be Year-wise Box Plot (Trend) and the title of the second chart should be Month-wise Box Plot (Seasonality). Make sure the month labels on bottom start at Jan and the x and y axis are labeled correctly. The boilerplate includes commands to prepare the data.
+It should look like this:
+
+![Draw_Box_plot](/draw-box-plot.png)
